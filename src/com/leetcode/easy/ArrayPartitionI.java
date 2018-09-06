@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import java.util.Random;
+
 import org.junit.Test;
 
 public class ArrayPartitionI {
@@ -31,4 +33,10 @@ public class ArrayPartitionI {
 		   int[] A= {1,4,3,2};
 		   System.out.println(arrayPairSum(A));
 	   }
+		@Test
+		public void test1() {
+			for(int i=0;i<100;i++) {
+				System.out.println((new Random()).nextInt(4)+1);
+			}
+		}
 }
