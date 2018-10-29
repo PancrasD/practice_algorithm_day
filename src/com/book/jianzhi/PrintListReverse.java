@@ -61,6 +61,8 @@ public class PrintListReverse {
 	   addNext(head,k);
 	   System.out.println();
 	   print2(head);
+	   int [] t=new int[10];
+	   int len=t.length;
 	   
 	}
    private void addNext(ListNode head,int count) {
