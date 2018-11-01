@@ -1,5 +1,8 @@
 package com.leetcode.medium;
 
+import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
+
 public class InsertintoaBinarySearchTree {
 	
 public TreeNode insertIntoBST(TreeNode root, int val) {
@@ -18,6 +21,7 @@ public TreeNode insertIntoBST(TreeNode root, int val) {
 		} 
 	    return node;
     }
+	
 	public class TreeNode {
 		     int val;
 		     TreeNode left;
