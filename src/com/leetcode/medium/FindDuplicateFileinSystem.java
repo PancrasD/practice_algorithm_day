@@ -48,7 +48,9 @@ public class FindDuplicateFileinSystem {
         }
         List<List<String>> returnlist=new ArrayList<>();
         for(Map.Entry<String, List<String>> entry:map.entrySet()) {
-        	returnlist.add(entry.getValue());
+        	if(entry.getValue().size()>=2) {
+        		returnlist.add(entry.getValue());
+        	}
         }
         return returnlist;
     }
